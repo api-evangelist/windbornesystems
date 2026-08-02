@@ -1,0 +1,47 @@
+generated: '2026-07-21'
+method: searched
+source: api.windbornesystems.com docs (getting-started, technical-guides) + observed endpoint paths
+api: WindBorne Data API
+base_url: https://api.windbornesystems.com
+auth:
+  style: bearer-api-key
+  header: 'Authorization: Bearer $WB_API_KEY'
+  jwt_option: 'HS256-signed JWT with {"iat": timestamp} for untrusted runtimes'
+  ref: authentication/windbornesystems-authentication.yml
+versioning:
+  style: path-segment
+  pattern: /<domain>/version_1/<resource>/<operation>
+  current: version_1
+  examples:
+  - /forecasts/version_1/point-forecast/point-forecast
+  - /observations/version_1/observations/observations
+formats:
+  request: query-parameters
+  response:
+  - application/json
+  - application/x-zarr
+  - application/x-netcdf
+  note: Point/metadata responses are JSON; large gridded forecast and observation
+    payloads are delivered as Zarr or netCDF.
+delivery:
+  clients:
+  - cURL
+  - Python library (windborne)
+  - windborne CLI
+data_products:
+- observations
+- soundings
+- super-observations
+- point-forecast
+- gridded-forecast
+- interpolated-point-forecast
+- tropical-cyclones
+- forecast-availability
+- insights (heating/cooling degree days)
+pagination:
+  documented: false
+rate_limiting:
+  documented: false
+idempotency:
+  documented: false
+  note: Read-only GET API; no documented idempotency-key mechanism.

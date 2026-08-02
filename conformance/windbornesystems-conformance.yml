@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: derived
+source: derived from WindBorne docs (auth + endpoint conventions); no compliance program published
+api: WindBorne Data API
+standards:
+- id: oauth2
+  conforms: false
+  evidence: No OAuth2 authorization server or token endpoint; auth is a static Bearer
+    API key.
+- id: oidc
+  conforms: false
+  evidence: No OpenID Connect / .well-known/openid-configuration (404).
+- id: jwt
+  conforms: true
+  evidence: Optional HS256-signed JWT Bearer flow documented at /technical-guides/authentication/jwt-tokens.
+- id: rfc9457
+  conforms: false
+  evidence: No documented application/problem+json error envelope.
+- id: pagination
+  conforms: false
+  evidence: No documented pagination scheme.
+- id: idempotency
+  conforms: false
+  evidence: Read-only GET API; no Idempotency-Key mechanism documented.

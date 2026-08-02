@@ -1,8 +1,26 @@
 aid: windbornesystems
-name: Windbornesystems
-description: Windbornesystems is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windbornesystems.png
+name: WindBorne Systems
+description: WindBorne Systems operates a global constellation of long-duration Global
+  Sounding Balloons and pairs that proprietary in-situ atmospheric data with WeatherMesh,
+  its AI-based numerical weather forecast model. The WindBorne Data API serves real-time
+  balloon observations, soundings, super-observations, constellation and flight-path
+  metadata, point and gridded WeatherMesh forecasts, tropical-cyclone tracks, and
+  population-weighted heating/cooling degree-day insights. Access is via a Bearer
+  API key over REST, an official Python library and CLI, and a hosted Model Context
+  Protocol server for AI agents.
 url: https://raw.githubusercontent.com/api-evangelist/windbornesystems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Weather
+- Weather Data
+- Forecasting
+- Atmospheric Data
+- Geospatial
+- Climate
+- Machine Learning
+- MCP
+apis:
+- name: WindBorne Data API
+  description: REST API serving balloon observations, soundings, WeatherMesh point
+    and gridded forecasts, constellation/flight metadata, tropical cyclones, and
+    population-weighted degree-day insights. Bearer API-key auth; JSON, netCDF, Zarr,
+    and PrepBUFR response formats.
+  humanURL: https://api.windbornesystems.com/
+  baseURL: https://api.windbornesystems.com
+  tags:
+  - Weather
+  - Forecasting
+  - Observations
+  - Atmospheric Data
+  properties:
+  - type: Documentation
+    url: https://api.windbornesystems.com/
+  - type: GettingStarted
+    url: https://api.windbornesystems.com/getting-started/
+  - type: APIReference
+    url: https://api.windbornesystems.com/observations/version_1/overview/
+  - type: Authentication
+    url: authentication/windbornesystems-authentication.yml
+  - type: Packages
+    url: packages/windbornesystems-packages.yml
+  - type: SDKs
+    url: packages/windbornesystems-packages.yml
+  - type: CLI
+    url: cli/windbornesystems-cli.yml
+  - type: MCPServer
+    url: mcp/windbornesystems-mcp.yml
+  - type: LLMsTxt
+    url: llms/windbornesystems-llms.txt
+  - type: Conventions
+    url: conventions/windbornesystems-conventions.yml
+  - type: Conformance
+    url: conformance/windbornesystems-conformance.yml
+  - type: WellKnown
+    url: well-known/windbornesystems-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,3 +87,26 @@ maintainers:
 common:
 - type: Website
   url: https://windbornesystems.com/
+- type: Documentation
+  url: https://api.windbornesystems.com/
+- type: GettingStarted
+  url: https://api.windbornesystems.com/getting-started/
+- type: Blog
+  url: https://windbornesystems.com/blog
+- type: GitHubOrganization
+  url: https://github.com/windborne
+- type: SignUp
+  url: https://app.windbornesystems.com/api_tokens
+- type: Support
+  url: https://windbornesystems.com/faq
+- type: DomainSecurity
+  url: security/windbornesystems-domain-security.yml
+- type: MCPServer
+  url: mcp/windbornesystems-mcp.yml
+- type: LLMsTxt
+  url: llms/windbornesystems-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

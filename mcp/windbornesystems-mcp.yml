@@ -1,0 +1,78 @@
+generated: '2026-07-21'
+method: searched
+source: live MCP tools/list handshake against https://mcp.windbornesystems.com/mcp (2026-07-21)
+  + api.windbornesystems.com/technical-guides/integrations/mcp
+servers:
+- name: WindBorne MCP Server
+  official: true
+  status: published
+  confirmed: true
+  url: https://mcp.windbornesystems.com/mcp
+  transport: streamable-http
+  framework: FastMCP
+  spec_version: 1
+  server_version: 15d558dd90c4
+  generated_at: '2026-07-17T23:24:51.631Z'
+  docs: https://api.windbornesystems.com/technical-guides/integrations/mcp/
+  auth:
+    type: bearer
+    header: Authorization
+    note: Same WindBorne API key (Bearer token) as the REST API; a few utility tools
+      (get_mcp_status, read_api_docs, list_api_endpoints) require no authentication.
+  description: Official WindBorne-hosted Model Context Protocol server exposing the
+    WindBorne Data API (balloon observations, soundings, and WeatherMesh forecasts)
+    to MCP-compatible AI agents. Live tools/list handshake returned 26 tools.
+  tools_count: 26
+  tools:
+  - name: get_mcp_status
+    description: Return the loaded WindBorne MCP spec version and hashes (no auth).
+  - name: read_api_docs
+    description: Search and read WindBorne API documentation (no auth).
+  - name: list_api_endpoints
+    description: List all available WindBorne API endpoints with methods, paths, descriptions.
+  - name: get_aggregated_observations
+    description: Aggregated/binned balloon observations over time windows.
+  - name: get_all_soundings
+    description: Discover atmospheric soundings collected by the global balloon constellation.
+  - name: get_archived_initialization_times
+    description: List archived model-run initialization times for a weather model.
+  - name: get_available_stations
+    description: List METAR stations for which MetaMesh generates station forecasts.
+  - name: get_calculation_times
+    description: Available calculation times for degree-days (HDD/CDD) forecasts.
+  - name: get_cdd
+    description: Population-weighted Cooling Degree Days (CDD) forecasts for 50 US states.
+  - name: get_constellation_status
+    description: Flying missions extended with position (lat/lon/altitude) data.
+  - name: get_current_location
+    description: Latest known location and state for a specific mission.
+  - name: get_flight_path
+    description: Recent transmitted flight data points for a mission.
+  - name: get_flying_missions
+    description: Active and historical flying missions with details and flight info.
+  - name: get_gridded_forecast
+    description: Gridded forecast output for a single or all variables.
+  - name: get_hdd
+    description: Population-weighted Heating Degree Days (HDD) forecasts for 50 US states.
+  - name: get_initialization_times
+    description: Available initialization times for point forecasts.
+  - name: get_interpolated_point_forecast
+    description: Interpolated forecasts for arbitrary geographic coordinates.
+  - name: get_interpolated_sounding
+    description: Interpolated forecast sounding (vertical profile) for a coordinate.
+  - name: get_mission_launch_site
+    description: Launch site for a given mission.
+  - name: get_point_forecast
+    description: Point forecasts for specific geographic coordinates.
+  - name: get_predicted_flight_path
+    description: Predicted flight path for a given mission.
+  - name: get_raw_observations
+    description: Raw weather observations from the global sounding balloon constellation.
+  - name: get_run_information
+    description: Information for a specific model run and its forecast hours.
+  - name: get_sounding
+    description: Complete vertical profile data for a specific sounding.
+  - name: get_tropical_cyclones
+    description: Predicted ground track of active tropical cyclones.
+  - name: get_variables
+    description: Available variables for a model, grouped by surface and upper-air.

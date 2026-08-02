@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: api.windbornesystems.com/getting-started + /technical-guides/authentication/jwt-tokens
+docs: https://api.windbornesystems.com/technical-guides/authentication/jwt-tokens
+api: WindBorne Data API
+base_url: https://api.windbornesystems.com
+schemes:
+- id: api_key_bearer
+  type: http
+  scheme: bearer
+  in: header
+  header: Authorization
+  format: 'Authorization: Bearer $WB_API_KEY'
+  description: Primary authentication - pass your WindBorne API key as a Bearer token.
+    Keys are issued from the developer portal.
+  key_management: https://app.windbornesystems.com/api_tokens
+  env:
+  - WB_API_KEY
+  - WB_CLIENT_ID
+- id: jwt_hs256
+  type: http
+  scheme: bearer
+  bearer_format: JWT
+  algorithm: HS256
+  description: 'Optional signed-JWT flow for browser/untrusted runtimes. Generate a
+    signed JWT with payload {"iat": CURRENT_UNIX_TIMESTAMP} using HS256 and your WB_API_KEY
+    as the secret, then send it as Authorization Bearer - avoids exposing the raw
+    API key to the caller.'
+oauth2: false
+openid_connect: false
+mutual_tls: false
+notes: No OAuth2/OIDC authorization server or .well-known metadata is published; auth
+  is a static per-account API key optionally wrapped in an HS256-signed JWT.

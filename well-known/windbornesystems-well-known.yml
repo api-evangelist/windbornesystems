@@ -1,0 +1,58 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of /.well-known/* on WindBorne hosts (2026-07-21)
+summary: No .well-known discovery documents are published on any WindBorne host; all
+  probed paths returned 404.
+probes:
+- host: windbornesystems.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: windbornesystems.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: windbornesystems.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- host: windbornesystems.com
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: windbornesystems.com
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: api.windbornesystems.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: api.windbornesystems.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: api.windbornesystems.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- host: api.windbornesystems.com
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: api.windbornesystems.com
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: app.windbornesystems.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: app.windbornesystems.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: app.windbornesystems.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null

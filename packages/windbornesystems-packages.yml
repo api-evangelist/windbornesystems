@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: PyPI (pypi.org/project/windborne) + github.com/windborne/windborne-api + api.windbornesystems.com/getting-started
+packages:
+- name: windborne
+  ecosystem: PyPI
+  official: true
+  install: pip install windborne
+  registry: https://pypi.org/project/windborne/
+  source: https://github.com/windborne/windborne-api
+  language: Python
+  provides_cli: true
+  cli_command: windborne
+  description: Official Python library and CLI for interacting with the WindBorne Data
+    API - fetch and process balloon observations, soundings, and WeatherMesh forecasts.

@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: github.com/windborne/windborne-api + api.windbornesystems.com/getting-started
+cli:
+  name: windborne
+  official: true
+  language: Python
+  package: windborne
+  install:
+  - method: pip
+    command: pip install windborne
+  source: https://github.com/windborne/windborne-api
+  help: windborne --help
+  auth:
+    env:
+    - WB_API_KEY
+    - WB_CLIENT_ID
+    note: Set WB_API_KEY (and WB_CLIENT_ID) in the environment; the CLI mirrors the
+      Python library and calls https://api.windbornesystems.com.
+  surface:
+  - group: observations
+    description: Fetch balloon observations, super observations, and soundings.
+  - group: forecasts
+    description: Retrieve point, interpolated-point, and gridded WeatherMesh forecasts.
+  - group: metadata
+    description: List flying missions, constellation status, and flight paths.

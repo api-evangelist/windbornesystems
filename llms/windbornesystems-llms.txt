@@ -1,0 +1,151 @@
+# WindBorne API Docs Index
+
+# Getting started
+<https://api.windbornesystems.com/getting-started/>
+Set up credentials and make your first API request.
+
+# Technical Guides
+## Authentication
+<https://api.windbornesystems.com/technical-guides/authentication/auth/>
+How to authenticate with your WB_API_KEY using Bearer token authentication.
+
+## JWT Tokens
+<https://api.windbornesystems.com/technical-guides/authentication/jwt-tokens/>
+Generate short-lived JWTs signed with WB_API_KEY and use them for auth.
+
+## Model Context Protocol (MCP)
+<https://api.windbornesystems.com/technical-guides/integrations/mcp/>
+Access WindBorne data via the Model Context Protocol (MCP).
+
+## Python SDK & CLI
+<https://api.windbornesystems.com/technical-guides/integrations/python-sdk/>
+Install and configure the windborne Python package and CLI.
+
+## File Formats
+<https://api.windbornesystems.com/technical-guides/data-formats/file-formats/>
+Supported response formats (JSON, NetCDF, Zarr, PrepBUFR) and utilities.
+
+# Models Measurements
+## Observation Data
+<https://api.windbornesystems.com/models-measurements/measurements/in-situ-data/>
+What WindBorne's Global Sounding Balloons measure, how data is delivered, and what to expect from the API.
+
+## External Models
+<https://api.windbornesystems.com/models-measurements/available-models/external-models/>
+External forecast models supported alongside WeatherMesh.
+
+## WindBorne Models
+<https://api.windbornesystems.com/models-measurements/available-models/windborne-models/>
+WindBorne's best in class AI-based weather forecast models.
+
+## MetaMesh
+<https://api.windbornesystems.com/models-measurements/about-our-models/metamesh/>
+MetaMesh: Multi-model blended weather forecasts combining the best of multiple forecast systems.
+
+## WeatherMesh-6
+<https://api.windbornesystems.com/models-measurements/about-our-models/weathermesh-6/>
+WeatherMesh-6: Next-generation global weather model with high-resolution regional forecasting.
+
+## Time in Forecasts
+<https://api.windbornesystems.com/models-measurements/variables/time-in-forecasts/>
+How initialization times, forecast zero, and valid times work in weather forecasting.
+
+# Observations
+## Constellation Status
+<https://api.windbornesystems.com/observations/version_1/metadata/constellation-status/>
+List active and historical flying GSBs with status, metadata, and current position.
+
+## Current Location
+<https://api.windbornesystems.com/observations/version_1/metadata/current-location/>
+Get the latest known location and state for a GSB.
+
+## Flight Path
+<https://api.windbornesystems.com/observations/version_1/metadata/flight-path/>
+Get recent transmitted flight path points for a GSB.
+
+## Flying Missions
+<https://api.windbornesystems.com/observations/version_1/metadata/flying-missions/>
+List active and historical flying GSBs with status and metadata.
+
+## Introduction to the Data API
+<https://api.windbornesystems.com/observations/version_1/overview/>
+Introduction to the Data API and mission, observation, and flight path endpoints.
+
+## Mission Launch Site
+<https://api.windbornesystems.com/observations/version_1/metadata/mission-launch-site/>
+Find the launch site information for a given GSB.
+
+## Observations
+<https://api.windbornesystems.com/observations/version_1/observations/observations/>
+Retrieve weather observations from WindBorne's global sounding balloon constellation
+
+## Predicted Flight Path
+<https://api.windbornesystems.com/observations/version_1/metadata/predicted-flight-path/>
+Get the predicted flight path for a GSB based on current conditions.
+
+## Sounding by ID
+<https://api.windbornesystems.com/observations/version_1/soundings/sounding/>
+Retrieve full atmospheric sounding data for a specific sounding ID.
+
+## Soundings
+<https://api.windbornesystems.com/observations/version_1/soundings/all-soundings/>
+Discover which atmospheric soundings have been collected by WindBorne's global balloon constellation.
+
+## Super Observations
+<https://api.windbornesystems.com/observations/version_1/observations/super-observations/>
+Retrieve superobbedweather observations from WindBorne's global sounding balloon constellation
+
+# Forecasts
+## Archived Initialization Times
+<https://api.windbornesystems.com/forecasts/version_1/forecast-availability/archived-initialization-times/>
+List archived initialization times for forecast models.
+
+## Available Stations
+<https://api.windbornesystems.com/forecasts/version_1/forecast-availability/available-stations/>
+List all weather stations with point forecasts
+
+## Forecasted Sounding
+<https://api.windbornesystems.com/forecasts/version_1/point-forecast/interpolated-sounding/>
+Get interpolated vertical atmospheric profile forecasts for a specific coordinate.
+
+## Gridded Forecast
+<https://api.windbornesystems.com/forecasts/version_1/gridded-forecast/gridded-forecast/>
+Download gridded forecast output as NetCDF.
+
+## Initialization Times
+<https://api.windbornesystems.com/forecasts/version_1/forecast-availability/initialization-times/>
+List available model initialization times for forecasts.
+
+## Interpolated Point Forecast
+<https://api.windbornesystems.com/forecasts/version_1/point-forecast/interpolated-point-forecast/>
+Interpolate gridded output to get forecasts at arbitrary coordinates.
+
+## Point Forecast
+<https://api.windbornesystems.com/forecasts/version_1/point-forecast/point-forecast/>
+Get the forecasts for specific coordinates
+
+## Run Information
+<https://api.windbornesystems.com/forecasts/version_1/forecast-availability/run-information/>
+Get information for a specific model run
+
+## Tropical Cyclones
+<https://api.windbornesystems.com/forecasts/version_1/extreme-weather/tropical-cyclones/>
+Get predicted ground tracks for active tropical cyclones.
+
+## Variables
+<https://api.windbornesystems.com/forecasts/version_1/forecast-availability/variables/>
+List available variables and vertical levels for a given model.
+
+# Insights
+## Calculation Times
+<https://api.windbornesystems.com/insights/version_1/population-weighted/calculation_times/>
+List available calculation times for degree days forecasts.
+
+## Population Weighted CDDs
+<https://api.windbornesystems.com/insights/version_1/population-weighted/cdd/>
+Population-weighted Cooling Degree Days (CDD) forecasts for US states.
+
+## Population Weighted HDDs
+<https://api.windbornesystems.com/insights/version_1/population-weighted/hdd/>
+Population-weighted Heating Degree Days (HDD) forecasts for US states.
+
