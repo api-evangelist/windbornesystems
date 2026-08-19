@@ -1,7 +1,6 @@
 generated: '2026-07-21'
 method: searched
-source: live MCP tools/list handshake against https://mcp.windbornesystems.com/mcp (2026-07-21)
-  + api.windbornesystems.com/technical-guides/integrations/mcp
+source: live MCP tools/list handshake against https://mcp.windbornesystems.com/mcp (2026-07-21) + api.windbornesystems.com/technical-guides/integrations/mcp
 servers:
 - name: WindBorne MCP Server
   official: true
@@ -17,11 +16,11 @@ servers:
   auth:
     type: bearer
     header: Authorization
-    note: Same WindBorne API key (Bearer token) as the REST API; a few utility tools
-      (get_mcp_status, read_api_docs, list_api_endpoints) require no authentication.
-  description: Official WindBorne-hosted Model Context Protocol server exposing the
-    WindBorne Data API (balloon observations, soundings, and WeatherMesh forecasts)
-    to MCP-compatible AI agents. Live tools/list handshake returned 26 tools.
+    note: Same WindBorne API key (Bearer token) as the REST API; a few utility tools (get_mcp_status,
+      read_api_docs, list_api_endpoints) require no authentication.
+  description: Official WindBorne-hosted Model Context Protocol server exposing the WindBorne Data API
+    (balloon observations, soundings, and WeatherMesh forecasts) to MCP-compatible AI agents. Live tools/list
+    handshake returned 26 tools.
   tools_count: 26
   tools:
   - name: get_mcp_status
@@ -76,3 +75,11 @@ servers:
     description: Predicted ground track of active tropical cyclones.
   - name: get_variables
     description: Available variables for a model, grouped by surface and upper-air.
+deployment:
+  mode: remote
+  endpoint: https://mcp.windbornesystems.com/mcp
+  verified: probed
+  probe: live
+  tools: 29
+  checked: '2026-08-12'
+  source: catalog MCP census
