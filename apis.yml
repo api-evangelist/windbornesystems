@@ -51,7 +51,7 @@ tags:
 - Atmospheric Data
 - Geospatial
 - Climate
-- Machine-Learning
+- Machine Learning
 - MCP
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Climate
 - Machine Learning
 - MCP
+- Machine-Learning
 apis:
 - name: WindBorne Data API
   description: REST API serving balloon observations, soundings, WeatherMesh point
