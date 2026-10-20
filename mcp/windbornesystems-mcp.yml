@@ -85,7 +85,7 @@ deployment:
   source: catalog MCP census
 tool_quality:
   tool_count: 48
-  tokens_total: 44453
+  tokens_total: 44496
   tokens_per_tool_median: 574
   heavy_tools:
   - name: create_webhook
@@ -99,7 +99,7 @@ tool_quality:
   - name: get_interpolated_point_forecast
     tokens: 1321
   heavy_tool_count: 5
-  params_total: 204
+  params_total: 205
   params_undescribed: 2
   params_described_pct: 99.0
   tools_with_undescribed_params: 1

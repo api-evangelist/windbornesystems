@@ -5,19 +5,19 @@
   "protocol_version": "2025-06-18",
   "server_info": {
     "name": "WindBorne API",
-    "version": "595c61ae6375"
+    "version": "c5b8a202edbf"
   },
   "result": {
     "tools": [
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -49,13 +49,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -98,13 +98,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -136,13 +136,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -656,13 +656,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1569,13 +1569,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1618,13 +1618,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1672,13 +1672,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1758,13 +1758,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1848,13 +1848,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1927,13 +1927,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -1968,13 +1968,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2036,13 +2036,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2096,13 +2096,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2177,13 +2177,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2266,13 +2266,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2307,13 +2307,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2356,13 +2356,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2427,13 +2427,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2488,13 +2488,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2537,13 +2537,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2624,13 +2624,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2711,13 +2711,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2760,13 +2760,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2810,13 +2810,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2925,13 +2925,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -2985,13 +2985,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3048,13 +3048,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3142,13 +3142,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3204,13 +3204,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3253,13 +3253,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3314,13 +3314,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3332,11 +3332,19 @@
           "openWorldHint": true,
           "readOnlyHint": true
         },
-        "description": "Return ranked weather conditions, an icon, and a plain-language summary for each requested hourly interval, local calendar day, and day or night period across a point forecast's full 360-hour horizon.\n\nDocumentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/conditions/\n\nDefault endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/point_forecast/conditions",
+        "description": "Return ranked weather conditions, an icon, and a plain-language summary for each requested hourly interval, local calendar day, and day or night period across a point forecast's available horizon, up to 360 hours.\n\nDocumentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/conditions/\n\nDefault endpoint: https://api.windbornesystems.com/forecasts/v1/{model}/point_forecast/conditions",
         "inputSchema": {
           "properties": {
+            "model": {
+              "description": "Forecast model: wm-6 (WeatherMesh-6) or metamesh (MetaMesh).",
+              "enum": [
+                "wm-6",
+                "metamesh"
+              ],
+              "type": "string"
+            },
             "coordinates": {
-              "description": "A semicolon-separated list of latitude,longitude tuples. One forecast object is returned for each coordinate, preserving the input order. Longitude uses the -180 to 180 convention. (Format: lat,lon;lat,lon;...)",
+              "description": "Up to 10 semicolon-separated latitude,longitude tuples. One forecast object is returned for each coordinate, preserving the input order. Longitude uses the -180 to 180 convention. (Format: lat,lon;lat,lon;...)",
               "type": "string"
             },
             "hourly_interval": {
@@ -3354,6 +3362,7 @@
             }
           },
           "required": [
+            "model",
             "coordinates"
           ],
           "type": "object",
@@ -3376,13 +3385,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3425,13 +3434,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3511,13 +3520,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3580,13 +3589,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3658,13 +3667,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3707,13 +3716,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3772,13 +3781,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3821,13 +3830,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3897,13 +3906,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -3973,13 +3982,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4029,13 +4038,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4146,13 +4155,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4195,13 +4204,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4264,13 +4273,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4318,13 +4327,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
@@ -4383,13 +4392,13 @@
       },
       {
         "_meta": {
-          "spec_hash": "595c61ae6375fa0d25eab868c570138faa8d9ba921dc274e34fee4feadefedd1",
-          "api_tools_hash": "01e8885d83cd3ec66befb5cda5bc0b175e596decbf279feed022d0554e2b1869",
-          "docs_hash": "df3d958d66986b4265ce1b1f52fdd40aa3275ad27a4302969328e3bb7c67c52f",
-          "server_version": "595c61ae6375",
+          "spec_hash": "c5b8a202edbf99c190b2aa6c3e1420fe21b1def82cd592c25a21ae673f8b0a3c",
+          "api_tools_hash": "1f4987cd6ae2b7d358fd914f90064f930c9be2926da6547104200982dba28656",
+          "docs_hash": "e9486bdf54f71026531ff9e9a8bf3b9eafcca1eeefe14c46222b6b6cdc1af0ea",
+          "server_version": "c5b8a202edbf",
           "spec_version": 1,
-          "generated_at": "2026-10-18T16:41:55.847Z",
-          "tools_hash": "9d9679c4a8b3ac4bef0b1162910a2f71d42a9a7894fa5c51198c0d28f906cedb",
+          "generated_at": "2026-10-20T18:21:21.159Z",
+          "tools_hash": "10278cb16560eb6128a6a689b8adf96196c981768b3466ff32ea8a81d8fa694c",
           "tools_count": 48,
           "fastmcp": {
             "tags": []
