@@ -118,3 +118,621 @@ tool_quality:
   scored: false
   note: Facts from the saved tools/list capture (mcp_tool_quality.py); recorded, not scored. Checks learned
     from Glimind's agent-readiness audit.
+tools:
+- name: get_mcp_status
+  description: Return the loaded WindBorne MCP spec version and hashes. Use this to check whether a client
+    has reconnected to the latest generated tool definitions. No authentication required.
+- name: read_api_docs
+  description: Search and read WindBorne API documentation. Returns relevant documentation pages matching
+    the query. Use this to learn about available endpoints, parameters, authentication, data formats,
+    and more. No authentication required.
+- name: list_api_endpoints
+  description: List all available WindBorne API endpoints with their methods, paths, and descriptions.
+    No authentication required.
+- name: add_webhook_subscription
+  description: 'Add another subscription to a webhook. This endpoint accepts both PATCH and PUT. The request
+    body is a single subscription object. degree_days.available: This subscription is sent after the degree
+    day calculation for a model run has completed. The payload identifies the matching model run whose
+    population-weighted HDD and CDD forecasts are available. events.available: Receive a notification
+    when atmospheric river, heatwave, coldwave, and front products are published for a model run and can
+    be queried through the Events API. By default, one notification waits for all four types from the
+    same initialization. Subscribe to specific types to receive their notifications independently, without
+    waiting for the others. Each notification covers a complete forecast, not one individual event or
+    forecast hour. forecast_hour.available: This subscription sends a notification for each individual
+    forecast output as it becomes available. The payload includes the model, initialization time, forecast
+    zero, forecast hour, and the time at which the forecast is valid. initialization_time.available: The
+    forecast cycle is complete when every expected forecast hour for a model run is available. The payload
+    includes the model, initialization time, and forecast zero. tropical_cyclones.available: This subscription
+    is sent once tropical cyclone forecasts have been published for a matching model run. The payload
+    includes the model, initialization time, forecast zero, and tropical cyclone IDs even when no response
+    option is configured.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/subscriptions/add-subscription/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}/subscriptions'
+- name: create_webhook
+  description: 'Register a destination URL for webhook deliveries and optionally configure one or more
+    subscriptions. Supported subscriptions: degree_days.available: This subscription is sent after the
+    degree day calculation for a model run has completed. The payload identifies the matching model run
+    whose population-weighted HDD and CDD forecasts are available. events.available: Receive a notification
+    when atmospheric river, heatwave, coldwave, and front products are published for a model run and can
+    be queried through the Events API. By default, one notification waits for all four types from the
+    same initialization. Subscribe to specific types to receive their notifications independently, without
+    waiting for the others. Each notification covers a complete forecast, not one individual event or
+    forecast hour. forecast_hour.available: This subscription sends a notification for each individual
+    forecast output as it becomes available. The payload includes the model, initialization time, forecast
+    zero, forecast hour, and the time at which the forecast is valid. initialization_time.available: The
+    forecast cycle is complete when every expected forecast hour for a model run is available. The payload
+    includes the model, initialization time, and forecast zero. tropical_cyclones.available: This subscription
+    is sent once tropical cyclone forecasts have been published for a matching model run. The payload
+    includes the model, initialization time, forecast zero, and tropical cyclone IDs even when no response
+    option is configured.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/manage/create-webhook/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1'
+- name: delete_webhook
+  description: 'Permanently deletes the webhook and its subscriptions. This cannot be undone.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/manage/delete-webhook/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}'
+- name: delete_webhook_subscription
+  description: 'Removes one subscription without deleting the webhook.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/subscriptions/delete-subscription/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}/subscriptions/{subscription_id}'
+- name: get_aggregated_observations
+  description: 'WindBorne observations are high-frequency, at once every ten seconds, but as our balloons
+    are comparatively slow-moving (relative to the distances at which weather changes), this may be excessive
+    for some applications. Indeed, previous data assimilation experiments have suggested that reducing
+    the resolution of the dataset helps with impact.
+
+
+    Documentation: https://api.windbornesystems.com/observations/version_1/observations/super-observations/
+
+
+    Default endpoint: https://api.windbornesystems.com/observations/v1/super_observations'
+- name: get_all_soundings
+  description: 'Discover which atmospheric soundings have been collected by WindBorne''s global balloon
+    constellation. This endpoint allows you to search for soundings by time, location, altitude, and mission,
+    making it easy to discover which soundings are available before fetching the full sounding data.
+
+
+    Documentation: https://api.windbornesystems.com/observations/version_1/soundings/all-soundings/
+
+
+    Default endpoint: https://api.windbornesystems.com/observations/v1/soundings'
+- name: get_archived_initialization_times
+  description: 'Returns a list of archived initialization times (model run start times) for the selected
+    weather model. Results are paginated. Use page and page_size to control pagination, and order to sort
+    by newest or oldest first. For archived runs, only full gridded forecast data is available.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/archived-initialization-times/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/initialization_times/archive
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/initialization_times/archive
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/initialization_times/archive'
+- name: get_available_stations
+  description: 'Returns the list of METAR weather stations for which MetaMesh generates station forecasts.
+    Use the station IDs from this endpoint with the Point Forecast endpoint.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/available-stations/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/point_forecast/stations'
+- name: get_calculation_times
+  description: 'Some forecast outputs are calculated after the underlying forecast data becomes available.
+    This endpoint lets you check when degree day (HDD/CDD) and tropical cyclone calculations are available
+    for each model initialization time, as well as which calculations are still in progress or incomplete.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/calculation_times/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/{model}/calculation_times/{calculation_type}'
+- name: get_cdd
+  description: 'This endpoint provides opulation weighted cooling degree days (CDD) forecasts for all
+    50 US states. CDD is a measure of how hot the temperature was on a given day relative to a base temperature
+    of 65°F, weighted by population density to provide more accurate energy demand forecasting.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/population-weighted/cdd/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/cdds
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/insights/v1/wm-6/cdds
+
+    - https://api.windbornesystems.com/insights/v1/ecmwf-det/cdds
+
+    - https://api.windbornesystems.com/insights/v1/ecmwf-ens/cdds
+
+    - https://api.windbornesystems.com/insights/v1/aifs/cdds
+
+    - https://api.windbornesystems.com/insights/v1/gfs/cdds
+
+    - https://api.windbornesystems.com/insights/v1/wm-6-3km/cdds
+
+    - https://api.windbornesystems.com/insights/v1/wm-4.5-ens-mean/cdds
+
+    - https://api.windbornesystems.com/insights/v1/gefs/cdds'
+- name: get_climatology
+  description: 'Look up the average weather for each hour at one or more locations. By default, each value
+    is the mean of ERA5 data for that calendar day and UTC hour across a historical period, called a normal
+    (for example, 1991-2020). Use it as a baseline for time-specific questions, such as whether a morning
+    is warmer than usual.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/context/climatology/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/climatology'
+- name: get_climatology_summary
+  description: 'Look up typical daily weather statistics at one or more locations. This endpoint first
+    calculates each day''s high, low, precipitation total, and wind statistics in local standard time
+    for each year in the selected ERA5 period, then averages those daily statistics across years. This
+    preserves the typical daily range.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/context/climatology-summary/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/climatology/summary'
+- name: get_constellation_status
+  description: 'Extends the Flying Missions endpoint with position data, including latitude , longitude
+    , altitude , and ascent_rate for each active mission.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/positions/constellation-status/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/constellation_status'
+- name: get_current_location
+  description: 'Retrieve the latest known location and state for a specific mission. This endpoint requires
+    a mission id in the URL path and takes no query parameters.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/positions/current-location/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/missions/{mission_id}/current_location'
+- name: get_event_context
+  description: 'Return a time series of events affecting each requested coordinate, keyed by event ID
+    with a summary at each time. Use those IDs with Event Detail to retrieve geometries and the full forecast.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/events/event-context/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/event-context'
+- name: get_event_detail
+  description: 'Return one event''s summary, geometries, and forecast-hour details for the selected initialization.
+    See About Weather Events for details about event detection, tracking, and severity.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/events/event-detail/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/{event_id}'
+- name: get_event_init_times
+  description: 'List the model initialization times containing a given event. Use a returned time with
+    Event Detail to retrieve its forecast.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/events/event-init-times/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/{event_id}/init_times'
+- name: get_events
+  description: 'Return events of the requested type for one model initialization, including each event''s
+    summary and geometries. Atmospheric rivers, heatwaves, and coldwaves have polygon footprints and severity
+    regions; fronts have line geometries. See About Weather Events for details about event detection,
+    tracking, and severity.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/events/events/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/{event_type}'
+- name: get_events_index
+  description: 'List events of the requested type across all published model runs, with optional filters
+    for time and location. Each event appears once, with its forecast start and end times and latest available
+    initialization.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/events/events-index/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/{event_type}/index'
+- name: get_flight_path
+  description: 'Retrieve recent transmitted flight data points for a mission. This endpoint requires a
+    mission id in the URL path and takes no query parameters.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/paths/flight-path/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/missions/{mission_id}/flight_path'
+- name: get_flying_missions
+  description: 'Retrieve information about active and historical flying missions, including mission details,
+    flight status, and operational parameters. This endpoint provides comprehensive data about WindBorne''s
+    atmospheric data collection missions.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/metadata/flying-missions/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/flying_missions'
+- name: get_gridded_forecast
+  description: 'This endpoint returns gridded forecast output as NetCDF (default) or Zarr. Request a native
+    or derived variable by name, or set variable to all to retrieve all native variables.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/gridded-forecast/gridded-forecast/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/gridded
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/gridded
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/gridded'
+- name: get_hdd
+  description: 'This endpoint provides Population Weighted Heating Degree Days (HDD) for all 50 US states,
+    using all available forecast hours. HDD measures how cold a day is relative to a 65°F base, weighted
+    by population density to better reflect energy demand.
+
+
+    Documentation: https://api.windbornesystems.com/insights/version_1/population-weighted/hdd/
+
+
+    Default endpoint: https://api.windbornesystems.com/insights/v1/wm-6/hdds
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/insights/v1/wm-6/hdds
+
+    - https://api.windbornesystems.com/insights/v1/ecmwf-det/hdds
+
+    - https://api.windbornesystems.com/insights/v1/ecmwf-ens/hdds
+
+    - https://api.windbornesystems.com/insights/v1/aifs/hdds
+
+    - https://api.windbornesystems.com/insights/v1/gfs/hdds
+
+    - https://api.windbornesystems.com/insights/v1/wm-6-3km/hdds
+
+    - https://api.windbornesystems.com/insights/v1/wm-4.5-ens-mean/hdds
+
+    - https://api.windbornesystems.com/insights/v1/gefs/hdds'
+- name: get_initialization_times
+  description: 'This endpoint returns the available initialization times (model run start times) for point
+    forecasts and related endpoints.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/initialization-times/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/initialization_times
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/initialization_times
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/initialization_times'
+- name: get_interpolated_point_forecast
+  description: 'Retrieve interpolated forecasts for arbitrary geographic coordinates. This endpoint provides
+    estimated weather forecasts at individual locations by interpolating values from the underlying gridded
+    model output.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/interpolated-point-forecast/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/point_forecast/interpolated
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/point_forecast/interpolated
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/point_forecast/interpolated'
+- name: get_interpolated_sounding
+  description: 'Retrieve interpolated forecast sounding data (vertical atmospheric profiles) for a specific
+    geographic coordinate. This endpoint provides predicted temperature, humidity, and wind data at multiple
+    pressure levels, suitable for generating Skew-T diagrams and atmospheric analysis.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/interpolated-sounding/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/point_forecast/interpolated_sounding'
+- name: get_mission_launch_site
+  description: 'This endpoint allows finding the site from which that mission was launched. It accepts
+    no query parameters, but requires a mission id to be passed into the url.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/metadata/mission-launch-site/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/missions/{mission_id}/launch_site'
+- name: get_point_forecast
+  description: 'Retrieve point forecasts for specific geographic coordinates. This endpoint provides detailed
+    weather forecasts for individual locations with high temporal resolution and multiple weather variables.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/point-forecast/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/mm/point_forecast'
+- name: get_point_forecast_conditions
+  description: 'Return ranked weather conditions, an icon, and a plain-language summary for each requested
+    hourly interval, local calendar day, and day or night period across a point forecast''s full 360-hour
+    horizon.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/point-forecast/conditions/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/point_forecast/conditions'
+- name: get_predicted_flight_path
+  description: 'This endpoint allows getting the predicted flight path for a given mission. It accepts
+    no query parameters, but requires a mission id to be passed into the url.
+
+
+    Documentation: https://api.windbornesystems.com/atlas/version_1/paths/predicted-flight-path/
+
+
+    Default endpoint: https://api.windbornesystems.com/atlas/v1/missions/{mission_id}/predicted_path'
+- name: get_raw_observations
+  description: 'Retrieve weather observations from WindBorne''s global sounding balloon constellation.
+    Observations are returned in chronological order with the most recent data first.
+
+
+    Documentation: https://api.windbornesystems.com/observations/version_1/observations/observations/
+
+
+    Default endpoint: https://api.windbornesystems.com/observations/v1/observations'
+- name: get_recent_asos_observations
+  description: 'Retrieve recent temperature, dewpoint, pressure, wind, and precipitation observations
+    for one ASOS station. Results cover at most the previous seven days and are returned in chronological
+    order.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/context/asos/
+
+
+    Default endpoint: https://api.windbornesystems.com/observations/v1/asos/recent'
+- name: get_run_information
+  description: 'This endpoint returns information for a specific model run, including which forecast hours
+    are currently available and when each forecast hour was generated.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/run-information/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/run_information
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/run_information
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/run_information'
+- name: get_sounding
+  description: 'Retrieve the complete vertical profile data for a specific atmospheric sounding collected
+    by WindBorne''s balloon constellation. This endpoint returns detailed measurements at multiple altitude
+    levels including temperature, humidity, pressure, and wind data.
+
+
+    Documentation: https://api.windbornesystems.com/observations/version_1/soundings/sounding/
+
+
+    Default endpoint: https://api.windbornesystems.com/observations/v1/soundings/{sounding_id}'
+- name: get_tropical_cyclone_detail
+  description: 'Fetch all available data for a model''s tropical cyclone for its latest or a requested
+    initialization time. Use an operational ATCF ID or a generated ID returned by the index. See About
+    the Tropical Cyclone Tracker for details about paths, landfalls, cones, and storm identification.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/tropical-cyclones/tropical-cyclone-detail/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/tropical_cyclones/{tc_id}'
+- name: get_tropical_cyclone_init_times
+  description: 'Pass a tropical cyclone ID and receive every initialization time where that cyclone is
+    available. See About the Tropical Cyclone Tracker for details about operational and generated storm
+    IDs.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/tropical-cyclones/tropical-cyclone-init-times/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/tropical_cyclones/{tc_id}/init_times'
+- name: get_tropical_cyclones
+  description: 'List tropical cyclones for the latest initialization time. The response is short by default.
+    Set include_details=true to add each cyclone''s path, member landfalls, and ensemble-weighted cone.
+    For easier use with maps use format=geojson to return map ready data. See About the Tropical Cyclone
+    Tracker for details about paths, landfalls, cones, and storm identification.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/tropical-cyclones/tropical-cyclones/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/tropical_cyclones'
+- name: get_tropical_cyclones_index
+  description: 'This endpoint lists tropical cyclones captured across all initialization times for a model.
+    Use min_time , max_time , or both to find cyclones whose lifetime overlaps the specified window. Results
+    are ordered by start_time from newest to oldest. To find every initialization time that captures a
+    cyclone, use the tropical cyclone initialization-times endpoint. See About the Tropical Cyclone Tracker
+    for details about operational and generated storm IDs.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/tropical-cyclones/tropical-cyclones-index/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/tropical_cyclones/index'
+- name: get_variables
+  description: 'This endpoint returns the list of available variables for a given model, grouped by native
+    and derived surface and upper-air variables, as well as the vertical levels used by the model.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/forecast-availability/variables/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/wm-6/variables
+
+    Endpoint options (pass one as the endpoint parameter):
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/wm-6-3km/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/mm/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-det/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/ecmwf-ens/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/aifs/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/gfs/variables
+
+    - https://api.windbornesystems.com/forecasts/v1/hrrr/variables'
+- name: get_weather_context
+  description: 'Get a MetaMesh point forecast for each coordinate or station, with optional conditions,
+    observations, and historical ERA5 averages (normals). include_climatology adds normals at every hour
+    from the first to last forecast time; include_climatology_summary adds daily normals for the local
+    dates covered by the forecast. Either option works on its own.
+
+
+    Documentation: https://api.windbornesystems.com/forecasts/version_1/context/weather-context/
+
+
+    Default endpoint: https://api.windbornesystems.com/forecasts/v1/weather_context'
+- name: get_webhook
+  description: 'Retrieve the full details of a single webhook, including its configuration and all subscriptions.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/manage/get-webhook/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}'
+- name: list_webhooks
+  description: 'Retrieve your webhook endpoints and their subscriptions, with optional filters for status,
+    subscription type, and destination URL.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/manage/list-webhooks/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1'
+- name: ping_webhook_subscription
+  description: 'Send a test delivery to your endpoint for a specific subscription. Useful for verifying
+    connectivity and confirming your server handles payloads correctly.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/debug/ping-subscription/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}/subscriptions/{subscription_id}/ping'
+- name: update_webhook
+  description: 'Update the core properties of a webhook. This endpoint accepts both PATCH and PUT.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/manage/update-webhook/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}'
+- name: update_webhook_subscription
+  description: 'Update a single subscription on a webhook. This endpoint accepts both PATCH and PUT. The
+    request body is partial, so omitted fields remain unchanged. Use get_webhook first when the subscription
+    type is unknown. degree_days.available: This subscription is sent after the degree day calculation
+    for a model run has completed. The payload identifies the matching model run whose population-weighted
+    HDD and CDD forecasts are available. events.available: Receive a notification when atmospheric river,
+    heatwave, coldwave, and front products are published for a model run and can be queried through the
+    Events API. By default, one notification waits for all four types from the same initialization. Subscribe
+    to specific types to receive their notifications independently, without waiting for the others. Each
+    notification covers a complete forecast, not one individual event or forecast hour. forecast_hour.available:
+    This subscription sends a notification for each individual forecast output as it becomes available.
+    The payload includes the model, initialization time, forecast zero, forecast hour, and the time at
+    which the forecast is valid. initialization_time.available: The forecast cycle is complete when every
+    expected forecast hour for a model run is available. The payload includes the model, initialization
+    time, and forecast zero. tropical_cyclones.available: This subscription is sent once tropical cyclone
+    forecasts have been published for a matching model run. The payload includes the model, initialization
+    time, forecast zero, and tropical cyclone IDs even when no response option is configured.
+
+
+    Documentation: https://api.windbornesystems.com/webhooks/version_1/subscriptions/update-subscription/
+
+
+    Default endpoint: https://api.windbornesystems.com/webhooks/v1/{id}/subscriptions/{subscription_id}'
+tools_count: 48
